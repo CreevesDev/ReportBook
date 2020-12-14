@@ -1,0 +1,29 @@
+Categories:
+  - Cheating
+  - Inappropriate Skin
+  - Inappropriate Name
+  - Private Messages
+  - Public Chat
+
+SubCategories:
+  Cheating:
+    - Fly Hacks
+    - Kill Aura
+    - AFK Mining/Fishing
+    - Anti-Knockback
+    - Reach Hacks
+    - Water Walking
+  Public Chat:
+    - PC Racism
+    - PC Swearing
+    - PC Toxicity
+  Private Messages:
+    - DM Racism
+    - DM Swearing
+    - DM Toxicity
+
+Whitelist:
+  - 069a79f4-44e9-4726-a5be-fca90e38aaf5
+
+Mute List:
+  - 8667ba71-b85a-4004-af54-457a9734eed7

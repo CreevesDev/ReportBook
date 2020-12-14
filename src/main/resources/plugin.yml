@@ -1,0 +1,19 @@
+name: ReportBook
+version: ${project.version}
+main: me.cooldcb.reportbook.ReportBook
+api-version: 1.13
+authors: [CoolDCB]
+description: A book to report players
+commands:
+  report:
+    description: Report players on the server
+    usage: /report <username>
+  reports:
+    description: Gets a list of Reported Users
+    usage: /reports [username]
+  uuid:
+    description: Gets a user's UUID
+    usage: /uuid <username>
+  reportstatus:
+    description: Delete a report
+    usage: /statusreport <username> <reportID> <status>

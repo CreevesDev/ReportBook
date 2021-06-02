@@ -42,6 +42,7 @@ public class DataManager implements Listener {
         plugin = instance;
         OfflinePlayer[] offlinePlayerList = Bukkit.getOfflinePlayers();
         for (OfflinePlayer offlinePlayer : offlinePlayerList) {
+            if (playerList.containsValue(offlinePlayer.getName())) continue;
             playerList.put(offlinePlayer.getUniqueId(), offlinePlayer.getName());
         }
     }

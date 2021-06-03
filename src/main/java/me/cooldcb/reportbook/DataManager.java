@@ -25,7 +25,7 @@ public class DataManager implements Listener {
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent e) {
-        if(!e.getPlayer().hasPlayedBefore()) {
+        if(!playerList.containsKey(e.getPlayer().getUniqueId())) {
             playerList.put(e.getPlayer().getUniqueId(), e.getPlayer().getName());
         }
     }

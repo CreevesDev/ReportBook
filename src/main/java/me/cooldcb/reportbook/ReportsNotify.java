@@ -73,11 +73,11 @@ public class ReportsNotify implements CommandExecutor, Listener, TabCompleter {
                     String reportedPlayerName = Bukkit.getOfflinePlayer(reportedPlayerUUID).getName();
                     if (reportedNum == 0) {
                         reportedNum = reportedNum + 1;
-                        nameList = "§8- §7" + reportedPlayerName;
+                        nameList = "§8- §c" + reportedPlayerName;
                         break;
                     }
                     reportedNum = reportedNum + 1;
-                    nameList = nameList + "\n§8- §7" + reportedPlayerName;
+                    nameList = nameList + "\n§8- §c" + reportedPlayerName;
                     break;
                 }
             }
@@ -106,7 +106,7 @@ public class ReportsNotify implements CommandExecutor, Listener, TabCompleter {
             public void run() {
                 outputReportedUsersOpen(e.getPlayer());
             }
-        }.runTaskLater(plugin, 20L);
+        }.runTaskLater(plugin, 40L);
     }
 
     @Override
